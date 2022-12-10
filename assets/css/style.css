@@ -5,3 +5,21 @@ img.d-inline-block {
     width:25rem;
   }
 
+header img {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+header {
+  height: 16rem;
+  width: 100%;
+}
+
+header .navbar {
+  position: absolute;
+  left: 20rem;
+  top: 210px;
+}
