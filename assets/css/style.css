@@ -1,4 +1,4 @@
-
+/* Header */
 
 img.d-inline-block {
     height:25rem;
@@ -23,3 +23,11 @@ header .navbar {
   left: 20rem;
   top: 210px;
 }
+
+/* Hero Image */
+.carousel-inner {
+  transition-duration: 6s;
+  transition: ease-in-out;
+}
+/*$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)*/
